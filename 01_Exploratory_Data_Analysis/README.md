@@ -49,7 +49,7 @@ It is designed to answer **high-impact, real-world questions** relevant to:
 ## 🏗️ Repository Structure
 
 ```
-📦 SQL_EDA_Project
+📦 01_Exploratory_Data_Analysis
  ┣ 📜 01_germany_finding.sql
  ┣ 📜 02_top_demanded_skills.sql
  ┣ 📜 03_top_paying_skills.sql
@@ -78,7 +78,7 @@ It is designed to answer **high-impact, real-world questions** relevant to:
 ### 1️⃣ Entry-Level Market Reality
 
 * Only **~396 relevant roles** out of 51k+ postings
-* → Indicates **high competition + low supply**
+* Indicates **high competition + low supply** or questions the methods used for scrapping.
 
 ---
 
@@ -115,6 +115,15 @@ Custom scoring model reveals:
 
 ---
 
+## 🧰 Tech Stack
+
+* 🐤 **Query Engine:** DuckDB (optimized for fast OLAP-style analytical queries)
+* 🧮 **Language:** SQL (ANSI-compliant with analytical functions)
+* 📊 **Data Model:** Star schema (fact, dimension, and bridge tables)
+* 🛠️ **Development Environment:** VS Code + DuckDB CLI
+
+
+
 ## 🧠 Technical Highlights (SQL Depth)
 
 This project demonstrates **production-level SQL capabilities**:
@@ -145,9 +154,9 @@ Optimal Score = ln(Demand) × Median Salary
 
 ---
 
-## 💡 Why This Project Stands Out
+## 💡Stands Out of The Project 
 
-* ✔️ Uses **real-world, large-scale dataset**
+* ✔️ Used **real-world, large-scale dataset**
 * ✔️ Moves beyond EDA → **decision intelligence**
 * ✔️ Combines **engineering + analytics thinking**
 * ✔️ Introduces **custom metric design (optimization model)**
@@ -168,8 +177,8 @@ Optimal Score = ln(Demand) × Median Salary
 
 ## 👨‍💻 Author
 
-**Your Name**
-Aspiring Data Engineer | SQL | Data Analytics
+**Heel Ghevariya,**
+Aspiring Data Engineer
 
 ---
 
@@ -181,6 +190,5 @@ This project reflects the ability to:
 * Derive **actionable insights**
 * Build **scalable analytical logic using SQL**
 
-> 🎯 Skills demonstrated here are directly transferable to **data engineering and analytics roles at top tech companies**
 
 ---
