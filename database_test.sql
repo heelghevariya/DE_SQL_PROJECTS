@@ -1,0 +1,19 @@
+CREATE DATABASE IF NOT EXISTS jobs_mart;
+SHOW DATABASES;
+
+SELECT * 
+FROM INFORMATION_SCHEMA.SCHEMATA;
+
+USE jobs_mart;
+
+CREATE SCHEMA IF NOT EXISTS staging;
+
+CREATE TABLE IF NOT EXISTS staging.preferred_roles(
+    role_id INTEGER,
+    role_name VARCHAR
+);
+
+SELECT * 
+FROM INFORMATION_SCHEMA.TABLES
+WHERE table_catalog = 'jobs_mart';
+
